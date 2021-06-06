@@ -1,0 +1,28 @@
+.contacts__title {
+    margin-bottom: 10px;
+  }
+  
+  .contacts__list {
+    width: 384px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+  
+  .list__button {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    &:hover {
+      background-color: olive;
+    }
+  }
